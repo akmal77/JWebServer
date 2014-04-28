@@ -1,9 +1,6 @@
 package com.company;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Date;
@@ -58,10 +55,36 @@ public class HttpHandler {
 
         out.println("HTTP/1.1 200 Ok");
         out.println("Content-Type: text/html; charset=UTF-8");
-        out.println("Content-Length: 64");
+        out.println("Content-Length: 1000");
         out.println("");
-        out.println("<h2>Hello</h2>");
+
+        String file = loadFile();
+        out.println(file);
+
         String st = "<h3>Server Time: </h3>" + new Date();
-        out.println(st);
+        //out.println(st);
+    }
+
+    private String loadFile() {
+        try {
+            FileReader f = new FileReader("e:\\java_work\\JWebServer\\src\\com\\company\\Index.html");
+            BufferedReader buf = new BufferedReader(f);
+            StringBuilder sb = new StringBuilder();
+            String line = buf.readLine();
+
+            while(line != null){
+                sb.append(line);
+                sb.append(System.lineSeparator());
+                line = buf.readLine();
+            }
+
+            return sb.toString();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }catch (IOException e){
+
+        }
+        return "Empty";
     }
 }

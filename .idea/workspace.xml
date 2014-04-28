@@ -79,11 +79,20 @@
       <file leaf-file-name="HttpHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/HttpHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="52" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.65235174" vertical-offset="752" max-vertical-offset="1241">
+            <state line="80" column="33" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.9611452" vertical-offset="890" max-vertical-offset="1632">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#821#829#0" expanded="true" />
+                <element signature="e#718#726#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="23" selection-start="93" selection-end="93" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,6 +108,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Index.html" />
         <option value="$PROJECT_DIR$/src/com/company/HttpHandler.java" />
       </list>
     </option>
@@ -190,6 +200,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -420,15 +431,15 @@
       <created>1398436222163</created>
       <updated>1398436222163</updated>
       <workItem from="1398436223409" duration="1773000" />
-      <workItem from="1398690346017" duration="4838000" />
+      <workItem from="1398690346017" duration="6111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6611000" />
+    <option name="totallyTimeSpent" value="7884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -444,7 +455,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -495,8 +506,15 @@
         <state line="39" column="19" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="918">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#821#829#0" expanded="true" />
+            <element signature="e#718#726#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="93" selection-end="93" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -512,10 +530,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/HttpHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="52" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.65235174" vertical-offset="752" max-vertical-offset="1241">
+        <state line="80" column="33" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.9611452" vertical-offset="890" max-vertical-offset="1632">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#821#829#0" expanded="true" />
+            <element signature="e#718#726#0" expanded="true" />
           </folding>
         </state>
       </provider>
